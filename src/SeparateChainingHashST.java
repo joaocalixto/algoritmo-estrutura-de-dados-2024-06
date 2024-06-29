@@ -31,6 +31,6 @@ public class SeparateChainingHashST<Key, Value> {
         Então no pior caso a complexidade do método delete é O(N)
          */
         int i = hash(key);
-        st[i].delete(key);
+       // st[i].delete(key);
     }
 }
